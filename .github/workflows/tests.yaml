@@ -1,5 +1,5 @@
 name: Covasim CI workflow
-on: [pull_request]
+on: workflow_dispatch
 
 jobs:
   install_and_test:
