@@ -21,7 +21,7 @@ jobs:
       - name: Install Covasim
         run: pip install -e .
       - name: Install py
-        run: pip install -u pytest .
+        run: pip install pytest .
       - name: Install tests
         working-directory: ./tests
         run: pip install -r requirements_test.txt
